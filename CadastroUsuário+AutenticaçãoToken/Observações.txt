@@ -1,0 +1,25 @@
+COMANDO PARA RODAR O SERVIDOR ATRAVÉS DO TERMINAL
+>>>   src/server.js
+
+o acesso é feito atrés do localhost:3009
+http://localhost:3009
+
+O registro de usuário
+http://localhost:3009/auth/register
+
+A autenticação do usuário é feito
+http://localhost:3009/auth/authenticate
+
+a validação de token
+http://localhost:3009/admin/users
+
+segue a token de ADM.
+OBS: deve conter o "Bearer" no inicio do token
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0N2Y4YzYwYzg3MTRlMTVhY2JjYjQyMCIsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTY4NjA4MDYxMiwiZXhwIjoxNjg2Njg1NDEyfQ.YI3EIkJ9dp2Dwgu7Arze9ZJe3LrMwJIoP9p-9J3CDgg
+
+
+{
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "admin" 
+}
